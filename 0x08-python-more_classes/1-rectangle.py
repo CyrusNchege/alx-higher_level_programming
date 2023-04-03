@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python4
 """ Rectangle that defines a rectangle based on 0-rectangle.py """
 
 
@@ -32,7 +32,7 @@ class Rectangle:
 
     @width.setter
     def width(self, value):
-        if not instance(value, int):
+        if not isinstance(value, int):
             raise TypeError("Width should be an integer")
         elif value < 0:
             raise ValueError("Width must be greater than 0")
@@ -45,7 +45,7 @@ class Rectangle:
 
     @height.setter
     def height(self, value):
-        if not instance(value, int):
+        if not isinstance(value, int):
             raise TypeError("height should be an integer")
         elif value < 0:
             raise ValueError("Height must be greater than 0")
