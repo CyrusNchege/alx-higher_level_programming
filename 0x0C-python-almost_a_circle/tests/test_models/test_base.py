@@ -9,3 +9,5 @@ import unittest
 
 class TestBase_instantiation(unittest.TestCase):
     """unittests for testing instantiation"""
+if __name__ == '__main__':
+    unittest.main()
